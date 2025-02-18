@@ -14,7 +14,6 @@ import streamlit as st
 
 def main():
     # Streamlit input
-    st.warning("Image must be in 1x1 aspect ratio. If an error occurs, please reduce the resolution of the image.")
     uploaded_file = st.file_uploader("Choose an image...", type=["png", "jpg"])
     n_clusters = st.number_input("Enter number of clusters", min_value=1, value=2)
 
