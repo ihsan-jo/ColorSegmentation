@@ -132,8 +132,8 @@ def main():
 
         st.pyplot(fig)
 
-    modified_image = prep_image(image)
-    color_analysis(modified_image)
+    #modified_image = prep_image(image)
+    color_analysis(image)
 
 if __name__ == "__main__":
     main()
